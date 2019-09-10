@@ -1,0 +1,32 @@
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+import { Routes, RouterModule } from '@angular/router';
+
+import { AppComponent } from './app.component/app.component';
+import { AboutComponent } from './about.component/about.component';
+
+import { NgHrefModule } from 'projects/ng-href/src/public_api';
+import { CommonModule } from '@angular/common';
+
+const routes: Routes = [
+    {
+        path: '',
+        component: AppComponent
+    },
+    {
+        path: '/about',
+        component: AboutComponent
+    }
+];
+
+@NgModule({
+  declarations: [
+    AppComponent
+  ],
+  imports: [
+    BrowserModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
