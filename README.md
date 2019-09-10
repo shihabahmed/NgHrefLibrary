@@ -8,7 +8,7 @@ npm install ng-href --save
 
 ### Usage
 
-In `app.module.ts` add the following code
+In the module file (the one that declares the component inside which you'll be using `ng-href`) add the following code
 ```
 import { NgHrefModule } from 'ng-href';
 
