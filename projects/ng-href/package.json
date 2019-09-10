@@ -1,6 +1,13 @@
 {
   "name": "ng-href",
   "version": "1.0.0",
+  "description": "Make regular links with 'href' behave like 'routerLink' in angular.",
+  "author": "Shihab Ahmed",
+  "homepage": "https://github.com/shihabahmed/NgPagerLibrary",
+  "keywords": [
+    "angular", "ng", "href", "routerlink"
+  ],
+  "license": "MIT",
   "peerDependencies": {
     "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
     "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
