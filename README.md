@@ -21,7 +21,7 @@ import { NgHrefModule } from 'ng-href';
 ```
 
 
-Then in the component template file, add class `ng-href` as below.
+Then in the component template file, add class `ng-href` to the `<a>` tag as below.
 ```
 <a href="YOUR_LINK" class="ng-href">Link Text</a>
 ```
