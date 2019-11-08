@@ -16,5 +16,15 @@ export class NgHrefDirective implements OnInit {
                 this.router.navigateByUrl(event.target.getAttribute('href'));
             }
         });
+        // document.addEventListener('click', (event: any) => {
+        //     if (event.target.classList.contains('ng-href')) {
+        //         event.preventDefault();
+        //         Array.from(document.querySelectorAll('.ng-href')).forEach(el => {
+        //             if (el && el.contains(event.target)) {
+        //                 this.router.navigateByUrl(event.target.getAttribute('href'));
+        //             }
+        //         });
+        //     }
+        // });
     }
 }

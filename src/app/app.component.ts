@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'NgHrefLibrary';
+  newLink = '';
+  constructor() {
+      setTimeout(() => {
+          this.newLink = '<a class="ng-href" href="/">Home</a>';
+      }, 5000);
+  }
 }
